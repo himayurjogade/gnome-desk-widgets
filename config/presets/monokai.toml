@@ -1,0 +1,13 @@
+# Monokai
+[colors]
+background = "#272822"
+text = "#f8f8f2"
+muted = "#cfcfc2"
+accent = "#a6e22e"
+track = "#3e3d32"
+border = "#75715e"
+shadow = "#000000"
+
+[palettes]
+github = ["#3e3d32", "#44541f", "#5f7a26", "#86b32d", "#a6e22e"]
+leetcode = ["#3e3d32", "#6b4a1c", "#9c6c23", "#e6a62e", "#e6db74"]

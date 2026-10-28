@@ -1,0 +1,13 @@
+# Rosé Pine
+[colors]
+background = "#191724"
+text = "#e0def4"
+muted = "#a6a0c4"
+accent = "#ebbcba"
+track = "#26233a"
+border = "#403d52"
+shadow = "#000000"
+
+[palettes]
+github = ["#26233a", "#2d4a43", "#3e6b5c", "#56949f", "#9ccfd8"]
+leetcode = ["#26233a", "#5c3a3a", "#8f5a52", "#ebbcba", "#f6c177"]

@@ -1,0 +1,140 @@
+# desk-widgets global theme.
+# Every option here can be overridden per widget in widgets/<name>.toml.
+# Changes apply on restart (or `desk-widgets reload`).
+
+# Colour preset. Dark: catppuccin-mocha, tokyo-night, gruvbox, nord, dracula,
+# rose-pine, everforest, one-dark, monokai, solarized-dark, high-contrast.
+# Light: catppuccin-latte, github-light, solarized-light.
+preset = "catppuccin-mocha"
+preset_light = "catppuccin-latte"  # used when follow_system is on and the desktop is light
+follow_system = false              # follow the GNOME light/dark setting, live
+
+[size]
+width = 320
+height = 150
+scale = 1.0        # multiplies width, height, fonts, padding and radii
+
+[position]
+anchor = "top-right"   # top-left, top-right, bottom-left, bottom-right, center
+margin_x = 32
+margin_y = 32
+monitor = 0            # monitor index
+remember = true        # restore the last dragged position
+# Note: on GNOME Wayland the compositor places windows; see "Known limits" in the README.
+
+[shape]
+kind = "rounded"       # rounded, square, circle, pill, ring, squircle, hexagon, diamond, cut
+radius = 20.0          # corner radius for rounded, squircle and cut
+ring_width = 12.0
+cell = "rounded"       # grid cells: square, circle, rounded, pill, diamond, hexagon, dot, bar
+cell_radius = 2.0
+cell_size = 11.0
+cell_gap = 3.0
+
+[colors]
+# Core colours. Omit to keep the preset's.
+# background = "#1e1e2e"
+# text = "#cdd6f4"
+# muted = "#a6adc8"
+# accent = "#89b4fa"
+# track = "#313244"
+# border = "#45475a"
+# shadow = "#000000"
+
+# Per-element overrides. Empty means "inherit" from the core colour shown.
+# title = ""        # inherits accent
+# value = ""        # inherits text
+# date = ""         # inherits muted
+# label = ""        # inherits muted  (gauge labels)
+# legend = ""       # inherits muted
+# hover = ""        # inherits text   (outline on the hovered grid cell)
+# grid_empty = ""   # inherits track  (days with no activity)
+# grid_border = ""  # empty = no outline around grid cells
+
+[opacity]
+background = 0.88      # 0 invisible .. 1 solid; text is never affected
+
+[gradient]
+enabled = false        # two-stop background gradient
+start = "#1e1e2e"
+end = "#313244"
+angle = 135.0
+
+[bar_gradient]
+enabled = false        # two-stop gradient for bars, rings and boxes
+start = "#89b4fa"
+end = "#f5c2e7"
+angle = 0.0
+
+[border]
+width = 0.0            # 0 = no border
+color = "#45475a"
+
+[shadow]
+enabled = true
+blur = 18.0
+offset_x = 0.0
+offset_y = 4.0
+color = "#00000099"
+
+[font]
+family = "JetBrains Mono"
+
+[font.title]
+size = 13.0
+weight = "bold"        # normal, bold, light, semibold, heavy, or 100-900
+letter_spacing = 1.5
+
+[font.value]
+size = 46.0
+weight = "bold"
+letter_spacing = 0.0
+
+[font.small]
+size = 12.0
+weight = "normal"
+letter_spacing = 0.0
+
+[font.date]
+size = 12.0
+weight = "normal"
+letter_spacing = 0.0
+
+[font.legend]
+size = 10.0
+weight = "normal"
+letter_spacing = 0.0
+
+[layout]
+padding = 20.0
+padding_x = 0.0        # 0 = use padding
+padding_y = 0.0
+spacing = 6.0
+align = "center"       # center, start, end
+title_align = ""       # empty = use align
+value_align = ""
+direction = "vertical" # vertical or horizontal (system gauges)
+order = ["title", "value", "date", "grid", "legend"]   # draw order, top to bottom
+
+[show]
+title = true
+value = true
+date = true
+seconds = false
+grid = true
+legend = true
+longest_streak = true
+
+[behavior]
+stats_interval = 2.0      # seconds, local data (clock, CPU, RAM)
+remote_interval = 900.0   # seconds, network data (GitHub, LeetCode)
+grid_weeks = 26
+week_start = "sunday"     # sunday or monday
+reduced_motion = false    # no animated transitions, no hover highlight
+text_scaling = true       # follow the system font scaling factor
+
+[palettes]
+# One colour per activity level, lowest first. Preset values are used if omitted.
+# Add your own names and point github.palette / leetcode.palette at them.
+# github = ["#313244", "#2d4f3f", "#3e7a5c", "#52b788", "#a6e3a1"]
+# leetcode = ["#313244", "#6b4f1d", "#a37a28", "#e0a43b", "#f9e2af"]

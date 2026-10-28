@@ -1,0 +1,13 @@
+# Catppuccin Mocha
+[colors]
+background = "#1e1e2e"
+text = "#cdd6f4"
+muted = "#a6adc8"
+accent = "#89b4fa"
+track = "#313244"
+border = "#45475a"
+shadow = "#000000"
+
+[palettes]
+github = ["#313244", "#2d4f3f", "#3e7a5c", "#52b788", "#a6e3a1"]
+leetcode = ["#313244", "#6b4f1d", "#a37a28", "#e0a43b", "#f9e2af"]

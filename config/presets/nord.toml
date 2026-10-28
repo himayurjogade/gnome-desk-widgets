@@ -1,0 +1,13 @@
+# Nord
+[colors]
+background = "#2e3440"
+text = "#eceff4"
+muted = "#d8dee9"
+accent = "#88c0d0"
+track = "#3b4252"
+border = "#4c566a"
+shadow = "#000000"
+
+[palettes]
+github = ["#3b4252", "#2f4858", "#3d6b73", "#6aa5a8", "#a3be8c"]
+leetcode = ["#3b4252", "#5c4a33", "#8a6e46", "#d08770", "#ebcb8b"]

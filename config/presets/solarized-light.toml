@@ -1,0 +1,13 @@
+# Solarized Light
+[colors]
+background = "#fdf6e3"
+text = "#073642"
+muted = "#55676b"
+accent = "#1f6f8b"
+track = "#eee8d5"
+border = "#d3cbb7"
+shadow = "#5c553f"
+
+[palettes]
+github = ["#eee8d5", "#c3d9a8", "#8fbd6a", "#5f9440", "#3d6b22"]
+leetcode = ["#eee8d5", "#efd9a0", "#d9ae4e", "#a8761a", "#7a5410"]

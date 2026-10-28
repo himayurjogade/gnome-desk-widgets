@@ -1,0 +1,23 @@
+# High contrast: solid background, maximum text contrast, yellow accent.
+[colors]
+background = "#000000"
+text = "#ffffff"
+muted = "#e6e6e6"
+accent = "#ffff00"
+track = "#333333"
+border = "#ffffff"
+shadow = "#000000"
+
+[opacity]
+background = 1.0
+
+[border]
+width = 2.0
+color = "#ffffff"
+
+[shadow]
+enabled = false
+
+[palettes]
+github = ["#333333", "#4d4d4d", "#808080", "#bfbfbf", "#ffffff"]
+leetcode = ["#333333", "#665200", "#998000", "#ccad00", "#ffff00"]

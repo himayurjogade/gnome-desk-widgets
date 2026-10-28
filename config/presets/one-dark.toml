@@ -1,0 +1,13 @@
+# One Dark
+[colors]
+background = "#282c34"
+text = "#c8cedb"
+muted = "#a3acbd"
+accent = "#61afef"
+track = "#3b4048"
+border = "#4b5263"
+shadow = "#000000"
+
+[palettes]
+github = ["#3b4048", "#2f4f3c", "#3f7050", "#71ba6a", "#98c379"]
+leetcode = ["#3b4048", "#5c4524", "#8d6a30", "#d19a66", "#e5c07b"]

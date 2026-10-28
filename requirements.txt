@@ -1,0 +1,4 @@
+# GTK4 and cairo bindings. On Ubuntu, prefer the apt packages listed in the
+# README (python3-gi, gir1.2-gtk-4.0, python3-gi-cairo) over building these.
+PyGObject>=3.46
+pycairo>=1.25

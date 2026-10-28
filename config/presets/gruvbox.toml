@@ -1,0 +1,13 @@
+# Gruvbox Dark
+[colors]
+background = "#282828"
+text = "#ebdbb2"
+muted = "#bdae93"
+accent = "#fabd2f"
+track = "#3c3836"
+border = "#504945"
+shadow = "#000000"
+
+[palettes]
+github = ["#3c3836", "#32361a", "#4e5a28", "#79740e", "#b8bb26"]
+leetcode = ["#3c3836", "#5c3a12", "#8f5b1b", "#d79921", "#fabd2f"]

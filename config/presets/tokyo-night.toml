@@ -1,0 +1,13 @@
+# Tokyo Night
+[colors]
+background = "#1a1b26"
+text = "#c0caf5"
+muted = "#a9b1d6"
+accent = "#7aa2f7"
+track = "#292e42"
+border = "#3b4261"
+shadow = "#000000"
+
+[palettes]
+github = ["#292e42", "#1f4d3f", "#2d7a5f", "#41a6b5", "#73daca"]
+leetcode = ["#292e42", "#5c4420", "#946c2f", "#e0af68", "#ffd79d"]

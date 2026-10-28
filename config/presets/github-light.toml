@@ -1,0 +1,13 @@
+# GitHub Light
+[colors]
+background = "#ffffff"
+text = "#1f2328"
+muted = "#59636e"
+accent = "#0969da"
+track = "#eff2f5"
+border = "#d1d9e0"
+shadow = "#5c6672"
+
+[palettes]
+github = ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
+leetcode = ["#ebedf0", "#ffd8a8", "#ffb84d", "#e8900c", "#a65c00"]

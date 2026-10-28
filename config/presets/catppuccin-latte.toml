@@ -1,0 +1,13 @@
+# Catppuccin Latte
+[colors]
+background = "#eff1f5"
+text = "#4c4f69"
+muted = "#5c5f77"
+accent = "#1a5ad6"
+track = "#ccd0da"
+border = "#bcc0cc"
+shadow = "#5c5f77"
+
+[palettes]
+github = ["#ccd0da", "#a6d99b", "#6fb85c", "#40a02b", "#2a6b1d"]
+leetcode = ["#ccd0da", "#f5d9a8", "#e0a43b", "#b8860b", "#8a6508"]

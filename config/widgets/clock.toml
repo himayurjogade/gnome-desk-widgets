@@ -1,0 +1,17 @@
+# Clock widget overrides. Anything from theme.toml is valid here too.
+
+[size]
+width = 340
+height = 160
+
+[show]
+seconds = false
+title = false
+date = true
+
+[clock]
+style = "plain"              # plain, boxed, split
+time_format = "%H:%M"        # strftime, used when seconds are off
+seconds_format = "%H:%M:%S"  # strftime, used when show.seconds = true
+date_format = "%A, %d %B"
+title = "CLOCK"

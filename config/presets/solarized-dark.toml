@@ -1,0 +1,13 @@
+# Solarized Dark
+[colors]
+background = "#002b36"
+text = "#eee8d5"
+muted = "#93a1a1"
+accent = "#2aa198"
+track = "#073642"
+border = "#586e75"
+shadow = "#000000"
+
+[palettes]
+github = ["#073642", "#1d4a3a", "#2a6b4c", "#5f9e52", "#859900"]
+leetcode = ["#073642", "#5c4310", "#8a6414", "#b58900", "#cb9c20"]

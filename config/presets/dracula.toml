@@ -1,0 +1,13 @@
+# Dracula
+[colors]
+background = "#282a36"
+text = "#f8f8f2"
+muted = "#b9c0e0"
+accent = "#bd93f9"
+track = "#44475a"
+border = "#6272a4"
+shadow = "#000000"
+
+[palettes]
+github = ["#44475a", "#2f5d4a", "#3f8062", "#50fa7b", "#8affa5"]
+leetcode = ["#44475a", "#6b5330", "#a07a3c", "#ffb86c", "#f1fa8c"]

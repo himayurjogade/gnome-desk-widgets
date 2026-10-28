@@ -1,0 +1,29 @@
+# GitHub streak widget. No login or API key: this reads the public
+# contributions page at https://github.com/users/<username>/contributions
+
+[size]
+width = 440
+height = 250
+
+[layout]
+align = "start"
+
+[font.value]
+size = 34.0
+
+[show]
+title = true
+grid = true
+legend = true
+longest_streak = true
+
+[behavior]
+grid_weeks = 26
+week_start = "sunday"
+remote_interval = 900.0
+
+[github]
+username = "torvalds"    # <- put your GitHub username here (this is an example public account)
+palette = "github"       # which entry of [palettes] to colour the grid with
+title = "GITHUB"
+timeout = 8.0

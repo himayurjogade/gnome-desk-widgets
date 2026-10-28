@@ -1,0 +1,13 @@
+# Everforest Dark
+[colors]
+background = "#2d353b"
+text = "#d3c6aa"
+muted = "#a7b0a5"
+accent = "#a7c080"
+track = "#343f44"
+border = "#4f585e"
+shadow = "#000000"
+
+[palettes]
+github = ["#343f44", "#3c4a3f", "#55704f", "#83a373", "#a7c080"]
+leetcode = ["#343f44", "#5c4a2f", "#8a6a3c", "#dbbc7f", "#e69875"]

@@ -1,0 +1,27 @@
+# System stats widget. Anything from theme.toml is valid here too.
+
+[size]
+width = 300
+height = 190
+
+[layout]
+align = "start"
+
+[show]
+title = true
+
+[system]
+metrics = ["cpu", "ram", "disk"]   # any of cpu, ram, disk, in any order
+style = "bar"                      # bar, ring, number
+disk_path = "/"
+bar_height = 10.0
+ring_size = 54.0
+title = "SYSTEM"
+
+[behavior]
+stats_interval = 2.0
+
+[system.labels]
+cpu = "CPU"
+ram = "RAM"
+disk = "DISK"
